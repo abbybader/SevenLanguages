@@ -1,0 +1,27 @@
+Concurrency 
+  -Concurrent: things happen at the same time.  Hardware has speed limits; data continues to grow in size.The necessary solution is: divide and conquer.  All workers have to "agree" about the state of the universe.
+Distribution	
+Fault-tolerance	
+Compiled (language)	
+  -The language is first "compiled" into machine code before being executed.  Used a lot for the more secure applications?  Can't use in something like Ruby, because Ruby can be changed cynamically (as you run), so compiling is not a viable strategy.  
+Interpreted	
+  -Ruby is interpreted; makes it slow!  As i make changes, I refresh, and the changes immediately show up, without a compile step.  PHP is also interpreted.
+Prototype language	
+Statically typed	
+  -A type is a type is a type -- integer is THIS, and if you don't conform, you're not an integer.
+Strongly typed	
+  -If I type a param into my program, the program checks that the variable meets the expected type.  Compile error or runtime error.
+Weakly Typed	
+Dynamic typing
+  -Ruby is an example.  As it's executed, can change the methods that are supported -- what matters is what's in place when you're executing, not what is in place when you started.  You can dynamically change the definition of a type, and that can be AOK.
+Programming paradigm	
+Syntax	
+  -Grammar in your language.  How you express your "semantics", or meaning.
+Virtual machine	
+Typing	
+  -Data types of variables.  Classification of objects.  Language-specific.  Examples: integer, String, float.  Important, historically, because of security, because hackers could stick unexpected values into variables, and do BAD THINGS.
+String	
+  -A list of characters, including: spaces, escaped characters, numbers.
+Integer	
+  -Only numbers, nothing after the decimal point
+Other numbers -- double, float	Only numbers, with decimal information, and numbers after the decimal
